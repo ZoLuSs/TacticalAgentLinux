@@ -12,7 +12,7 @@ if [[ $1 != "amd64" && $1 != "armv6" ]]; then
         exit 1
 fi
 
-agentAmd64='https://github.com/ZoLuSs/TacticalAgentLinux/raw/main/agent/2.4.2/tactial-agent-2_4_4-amd64'
+agentAmd64='https://github.com/ZoLuSs/TacticalAgentLinux/raw/main/agent/2.4.4/tactial-agent-2_4_4-amd64'
 agentArmv6='https://github.com/ZoLuSs/TacticalAgentLinux/raw/main/agent/2.4.2/tactial-agent-2_4_2-armv6'
 
 case $1 in
